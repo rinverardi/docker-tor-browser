@@ -1,7 +1,7 @@
 FROM debian:jessie
 
 ENV DEBIAN_FRONTEND=noninteractive
-ENV VERSION=10.0.14
+ENV VERSION=10.5.5
 
 RUN apt-get update
 RUN apt-get -y dist-upgrade
